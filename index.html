@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Quadra Fácil — organização de equipes e partidas de futsal.">
+  <title>Quadra Fácil | Gestão de Futsal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#" aria-label="Quadra Fácil início">
+        <span class="brand-mark">QF</span>
+        <span>quadra<span class="brand-light">fácil</span></span>
+      </a>
+      <div class="side-label">MENU PRINCIPAL</div>
+      <nav class="nav-menu" aria-label="Navegação principal">
+        <button class="nav-link active" data-view="overview"><span>▦</span> Visão geral</button>
+        <button class="nav-link" data-view="players"><span>♟</span> Jogadores</button>
+        <button class="nav-link" data-view="matches"><span>◷</span> Partidas</button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="side-tip">
+          <span class="tip-icon">✦</span>
+          <strong>Organize seu time</strong>
+          <p>Cadastre atletas e acompanhe os resultados em um só lugar.</p>
+        </div>
+        <span class="version">PROJETO FRONT-END · 2026</span>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">PAINEL DO TIME</p>
+          <h1 id="page-title">Visão geral</h1>
+        </div>
+        <div class="topbar-right">
+          <span class="status-dot"></span><span class="team-status">Temporada em andamento</span>
+          <div class="avatar">QF</div>
+        </div>
+      </header>
+
+      <section class="view active" id="overview-view">
+        <div class="welcome-panel">
+          <div>
